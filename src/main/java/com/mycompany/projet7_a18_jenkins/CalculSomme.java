@@ -10,8 +10,9 @@ package com.mycompany.projet7_a18_jenkins;
  * @author BaDRi
  */
     
-    public class CalculSomme {
+    public class CalculSomme {  
     public static int CalculSomme(int valeur1, int valeur2){
+        System.out.println("Debut de traitement");
         return valeur1 + valeur2;
         
     }
