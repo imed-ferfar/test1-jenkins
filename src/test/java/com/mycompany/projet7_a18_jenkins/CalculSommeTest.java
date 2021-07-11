@@ -45,7 +45,7 @@ public class CalculSommeTest {
         System.out.println("CalculSomme");
         int valeur1 = 5;
         int valeur2 = 7;
-        int expResult = 11;
+        int expResult = 12;
         int result = CalculSomme.CalculSomme(valeur1, valeur2);
         assertEquals(expResult, result);
 
